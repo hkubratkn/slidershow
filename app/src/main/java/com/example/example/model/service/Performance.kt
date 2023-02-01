@@ -1,4 +1,4 @@
-package com.example.example.ui.model.service
+package com.example.example.model.service
 
 import com.google.firebase.perf.ktx.trace
 import com.google.firebase.perf.metrics.Trace

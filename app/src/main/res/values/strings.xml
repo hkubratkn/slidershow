@@ -1,47 +1,65 @@
 <resources>
     <string name="app_name">example</string>
-    <string name="email">Email</string>
-    <string name="password">Password</string>
-    <string name="repeat_password">Repeat password</string>
-    <string name="generic_error">Something wrong happened. Please try again.</string>
-    <string name="email_error">Please insert a valid email.</string>
-    <string name="cancel">Cancel</string>
-    <string name="try_again">Try again</string>
+    <string name="not_connected">⚠️ You aren’t connected to the internet</string>
+    <string name="topic">Topic</string>
+    <string name="topic_loading">Loading topic</string>
+    <string name="top_app_bar_action_icon_description">Settings</string>
+    <string name="settings_title">Settings</string>
+    <string name="loading">Loading...</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="licenses">Licenses</string>
+    <string name="brand_guidelines">Brand Guidelines</string>
+    <string name="feedback">Feedback</string>
+    <string name="theme">Theme</string>
+    <string name="brand_default">Default</string>
+    <string name="brand_android">Android</string>
+    <string name="dark_mode_config_system_default">System default</string>
+    <string name="dark_mode_config_light">Light</string>
+    <string name="dark_mode_config_dark">Dark</string>
+    <string name="dismiss_dialog_button_text">OK</string>
+    <string name="interests">Interests</string>
+    <string name="loading_interests">Loading data</string>
+    <string name="empty_header">"No available data"</string>
+    <string name="card_follow_button_content_desc">Follow interest button</string>
+    <string name="card_unfollow_button_content_desc">Unfollow interest button</string>
+    <string name="top_app_bar_title_interest">Interests</string>
+    <string name="top_app_bar_action_menu_interest">Menu</string>
+    <string name="top_app_bar_action_search_interest">Search</string>
+    <string name="for_you">For you</string>
+    <string name="done">Done</string>
+    <string name="for_you_loading">Loading for you…</string>
+    <string name="navigate_up">Navigate up</string>
+    <string name="onboarding_guidance_title">What are you interested in?</string>
+    <string name="onboarding_guidance_subtitle">Updates from topics you follow will appear here. Follow some things to get started.</string>
+    <string name="top_app_bar_title_for_you">Now in Android</string>
+    <string name="for_you_top_app_bar_action_search">Search</string>
+    <string name="following">You are following</string>
+    <string name="not_following">You are not following</string>
+    <string name="follow">Follow</string>
+    <string name="unfollow">Unfollow</string>
 
-    <!-- LoginScreen -->
-    <string name="sign_in">Sign in</string>
-    <string name="login_details">Enter your login details</string>
-    <string name="forgot_password">Forgot password? Click to get recovery email</string>
-    <string name="recovery_email_sent">Check your inbox for the recovery email.</string>
-    <string name="empty_password_error">Password cannot be empty.</string>
+    <string name="saved">Saved</string>
+    <string name="saved_loading">Loading saved…</string>
+    <string name="top_app_bar_title">Saved</string>
+    <string name="top_app_bar_action_search">Search</string>
+    <string name="top_app_bar_action_menu">Menu</string>
+    <string name="bookmarks_empty_error">No saved updates</string>
+    <string name="bookmarks_empty_description">Updates you save will be stored here\nto read later</string>
 
-    <!-- SignUpScreen -->
-    <string name="create_account">Create account</string>
-    <string name="password_error">Your password should have at least six digits and include one digit, one lower case letter and one upper case letter.</string>
-    <string name="password_match_error">Passwords do not match.</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="unbookmark">Unbookmark</string>
+    <string name="back">Back</string>
 
-    <!-- TasksScreen -->
-    <string name="tasks">Tasks</string>
+    <string name="card_tap_action">Open Resource Link</string>
+    <string name="card_meta_data_text">%1$s • %2$s</string>
 
-    <!-- EditTaskScreen -->
-    <string name="edit_task">Edit your task</string>
-    <string name="title">Title</string>
-    <string name="description">Description</string>
-    <string name="url">URL</string>
-    <string name="date">Date</string>
-    <string name="time">Time</string>
-    <string name="flag">Flag</string>
-    <string name="priority">Priority</string>
+    <string name="topic_chip_content_description_when_followed">%1$s is followed</string>
+    <string name="topic_chip_content_description_when_not_followed">%1$s is not followed</string>
 
-    <!-- SettingsScreen -->
-    <string name="settings">Settings</string>
-    <string name="sign_out">Sign out</string>
-    <string name="delete_my_account">Delete my account</string>
+    <string name="browse_topic">Browse topic</string>
 
-    <!-- Dialogs -->
-    <string name="sign_out_title">Sign out?</string>
-    <string name="sign_out_description">You will have to sign in again to see your tasks.</string>
-    <string name="delete_account_title">Delete account?</string>
-    <string name="delete_account_description">You will lose all your tasks and your account will be deleted. This action is irreversible.</string>
+    <string name="sync_notification_title">Now in Android</string>
+    <string name="sync_notification_channel_name">Sync</string>
+    <string name="sync_notification_channel_description">Background tasks for Now in Android</string>
 
 </resources>
